@@ -1,0 +1,150 @@
+body {
+    background-color: #F0ECEE;
+}
+
+@media screen and (min-width: 768px) {
+    body {
+        background-image: url("bulldog copy.jpg");
+        background-size: 110% auto;
+    }
+}
+
+ul {
+font-family: "Fira Sans";
+display:flex;
+flex-direction: column;
+justify-content: flex-start;
+font-weight: 300;
+list-style-type: none;
+}
+
+@media screen and (min-width: 768px) {
+    ul {
+        display:flex;
+        flex-direction: row;
+        flex: 6;
+        padding: 5px;
+    }
+}
+
+a {
+color: #88898B;
+text-decoration: none;
+margin: 5px;
+}
+
+.header {
+font-family: "Fira Sans";
+font-size: 15px;
+font-weight: 300;
+}
+
+@media screen and (min-width: 768px) {
+    .header {
+        flex: 1;
+        margin-top: 20x;
+    }
+}
+
+.header1 {
+font-family: "Fira Sans";
+font-size: 20px;
+font-weight: 400;
+}
+
+@media screen and (min-width: 768px) {
+    .header1 {
+        flex: 6;
+        margin-top: 20px;
+        margin-left: 45px;
+    }
+}
+
+.kindapink {
+    color: #FF4850;
+}
+
+.header2 {
+font-family:"Fira Sans";
+font-size: 15px;
+}
+
+@media screen and (min-width: 768px) {
+    .header2 {
+        margin-right: 10px;
+        margin-top: -20x;
+    }
+}
+
+.button1 {
+display: block;
+width: 100%;
+font-family: "Fira Sans";
+font-size: 15px;
+}
+
+@media screen and (min-width: 768px) {
+    .button1 {
+        width: 10%;
+        margin-left: 50px;
+    }
+}
+
+.MainPart {
+font-family:"Fira Sans";
+color: black;
+font-size: 23px;
+font-weight: 600;
+white-space: nowrap;
+}
+
+@media screen and (min-width: 768px) {
+    .MainPart {
+        margin-left: 45px;
+    }
+}
+
+p {
+font-family: "Fira Sans";
+font-size: 15px;
+font-weight: 300;
+margin-left: 45px;
+white-space: nowrap;
+}
+
+h3 span {
+font-family: "Fira Sans";
+font-size: 15px;
+font-weight: 300;
+color: white;
+background-color: #FF4850;
+padding: 10px;
+border-radius: 15px;
+margin-right: 10px;
+padding: 10px;
+margin-left: 45px;
+}
+
+.lines {
+display: flex;
+flex-direction: column;
+justify-content: flex-start;
+}
+
+button {
+display: block;
+width: 100%;
+background-color: #FF4850;
+color: white;
+border-radius: 15px;
+padding: 10px;
+}
+
+button:hover{
+background-color: #CCC;
+color: white;
+}
+
+a:hover {
+color: #FF4850;
+}
